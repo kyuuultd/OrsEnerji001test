@@ -1,0 +1,59 @@
+.firma-politica {
+    height: 350px;
+}
+
+.firma-politica,
+.firma-politica-img {
+    margin-top: 80px;
+    background-repeat: no-repeat;
+}
+
+.politica-title {
+    z-index: 2;
+    position: relative;
+
+    color: #fff;
+    text-shadow: 0px 0px 2px #fff;
+    font-size: 30px;
+    font-family: "Rubik", sans-serif;
+    text-decoration: underline;
+
+    text-align: center;
+    top: -337px;
+}
+
+.politica-text {
+    z-index: 2;
+    position: relative;
+
+    color: #fff;
+    text-shadow: 0px 0px 1px #fff;
+    font-family: "Rubik", sans-serif;
+    font-size: 18px;
+    text-align: left;
+
+    top: -310px;
+    margin-left: 120px;
+    margin-right: 350px;
+}
+
+.politica-text::before {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 600px;
+    background-color: #fff;
+    right: 200px;
+    top: 90px;
+    opacity: 50%;
+}
+
+.politica-text::after {
+    content: "Bu nedenle, Örs Enerji olarak kendimizi sürekli olarak geliştiriyoruz ve müşterilerimize en iyi hizmeti sunmak için elimizden gelenin en iyisini yapıyoruz. Uzman teknik ekiplerimiz, güneş enerjisi sistemleri konusunda derinlemesine uzmanlaşmıştır ve en son teknolojileri kullanarak müşterilerimize en üst düzeyde hizmet sunmaktadırlar.";
+    position: absolute;
+
+    color: #fff;
+    margin: 80px -190px 0px 320px;
+    right: 0px;
+    left: -120px;
+}

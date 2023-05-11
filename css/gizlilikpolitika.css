@@ -1,0 +1,185 @@
+body {
+    background: #29292988; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+      to right,
+      #959595,
+      #c5c4c4
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(
+      to right,
+      #c5c4c4,
+      #919090
+    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+
+
+* {
+
+    top: 0px;
+    left: 0;
+    margin: 0;
+}
+
+.logo {
+    width: 40%;
+}
+
+.enerjilogo {
+    place-items: center;
+    display: grid;
+}
+
+.gizlilik-politka {
+    height: 200rem;
+}
+
+.gizlilik-contents {
+    margin-top: 5px;
+    margin-left: 250px;
+    margin-right: 250px;
+    height: 90rem;
+}
+
+.gizlilik-contents h1 {
+    text-align: center;
+    font-family: 'Jost', sans-serif;
+}
+
+.gizlilik-contents p {
+    opacity: 95%;
+    font-family: 'Rubik', sans-serif;
+}
+
+
+/* content1  */
+.content1 p {
+    font-size: 20px;
+    margin-right: 120px;
+    margin-left: 120px;
+}
+
+.content1 h1  {
+    height: 70px;
+}
+
+.content1 span {
+    position: relative;
+    margin-right: 500px;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-left: 120px;
+    opacity: 95%;
+    font-family: 'Rubik', sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+/* content2  */
+.content2 {
+ margin-top: 100px;
+}
+
+.content2 p {
+    line-height: 37px;
+    font-size: 20px;
+    margin-right: 120px;
+    margin-left: 120px;
+}
+
+.content2 h1{
+    height: 70px;
+}
+
+/* content3  */
+.content3 {
+    margin-top: 100px;
+   }
+   
+   .content3 p {
+       line-height: 37px;
+       font-size: 20px;
+       margin-right: 120px;
+       margin-left: 120px;
+   }
+   
+   .content3 h1{
+       height: 70px;
+   }
+
+/* content4  */
+.content4 {
+    margin-top: 100px;
+   }
+   
+   .content4 p {
+       line-height: 37px;
+       font-size: 20px;
+       margin-right: 120px;
+       margin-left: 120px;
+   }
+   
+   .content4 h1{
+       height: 70px;
+   }
+
+   /* content5  */
+   .content5 {
+    margin-top: 100px;
+   }
+   
+   .content5 p {
+       line-height: 37px;
+       font-size: 20px;
+       margin-right: 120px;
+       margin-left: 120px;
+   }
+   
+
+   /* content6  */
+   .content6 h1{
+       height: 70px;
+   }
+
+   .content6 {
+    margin-top: 100px;
+   }
+   
+   .content6 p {
+       line-height: 37px;
+       font-size: 20px;
+       margin-right: 120px;
+       margin-left: 120px;
+   }
+   
+   .content6 h1{
+       height: 70px;
+   }
+
+   /* geri button  */
+   .geributton a {
+    font-family: 'Rubik', sans-serif;
+    color: #000;
+    opacity: 90%;
+   }
+
+   .geributton {
+    position: sticky;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    height: 50px;
+    width: 100px;
+    background: #ffffff75;
+    transition: all 0.2s;
+   }
+
+   .geributton:hover {
+    background: #fff;
+    transition: all 0.2s;
+   }
+
+   .geributton a:hover {
+color: #000;
+opacity: 100%;
+    transition: all 0.2s;
+   }

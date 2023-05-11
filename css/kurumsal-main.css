@@ -1,0 +1,223 @@
+body {
+    background: #29292988; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+      to right,
+      #959595,
+      #c5c4c4
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(
+      to right,
+      #c5c4c4,
+      #919090
+    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+
+  .top-background-img {
+    width: 200%;
+  }
+
+  .full-container {
+    height: 100%;
+  }
+
+  span.baslik {
+    display: grid;
+    place-items: center;
+    font-family: 'Electrolize', sans-serif;
+  }
+
+  span.baslik::after {
+height: 2px;
+width: 350px;
+background-color: #000;
+opacity: 90%;
+
+position: absolute;
+content: "";
+
+margin-top: -70px;
+  }
+
+  span.baslik::before {
+    height: 2px;
+    width: 300px;
+    background-color: #000;
+    opacity: 90%;
+    
+    position: absolute;
+    content: "";
+    
+    margin-top: 70px;
+      }
+
+  .baslik-container {
+    margin-top: 5rem;
+    width: 100%;
+  }
+
+  .sirket-container {
+    margin-top: 5rem;
+    margin-left: 200px;
+    margin-right: 200px;
+    height: 90rem;
+  }
+
+  .baslik1-container {
+    display: flex;
+  }
+
+  .alt-baslik {
+    height: 40px;
+    font-family: 'Jost', sans-serif;
+    margin-left: 2.5rem;
+  }
+
+
+  .alt-baslik-img {
+    width: 30%;
+    margin-left: -5rem;
+  }
+
+  .sirket-container p {
+    text-align: center;
+    font-size: 18px;
+    margin-left: 340px;
+    margin-right: 300px;
+    height: 350px;
+    position: absolute;
+    margin-top: -26rem;
+    font-family: 'Rubik', sans-serif;
+    opacity: 97%;
+    text-shadow: 0  0 1px #00000080;
+  }
+
+  .vizyon-misyon {
+    display: flex;
+    height: 29rem;
+  }
+
+  .vizyon {
+    margin-top: 100px;
+    width: 400px;
+    height: 20rem;
+  }
+
+  .misyon {
+    margin-left: 320px;
+    margin-top: 100px;
+    width: 400px;
+    height: 20rem;
+  }
+
+  .vizyon-title span {
+    font-size: 22px;
+    font-family: 'Jost', sans-serif;
+  display: grid;
+  place-items: center;
+  }
+
+  .vizyon-title span::before {
+    height: 2px;
+    width: 130px;
+    background-color:  #000;
+    opacity: 90%;
+
+    margin-top: 30px;
+    position: absolute;
+    content: "";
+
+  }
+
+  .vizyon-title h3 {
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Jost', sans-serif;
+    margin-top: 10px;
+  }
+
+  /* misyon  */
+
+  .misyon-title span {
+    font-size: 22px;
+    font-family: 'Jost', sans-serif;
+  display: grid;
+  place-items: center;
+  }
+
+  .misyon-title span::before {
+    height: 2px;
+    width: 130px;
+    background-color:  #000;
+    opacity: 90%;
+
+    margin-top: 30px;
+    position: absolute;
+    content: "";
+
+  }
+
+  .misyon-title h3 {
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Jost', sans-serif;
+    margin-top: 10px;
+  }
+
+  .baslik2-container span {
+    margin-left: 120px;
+  }
+
+  .hizmetlerimiz-title-content span {
+
+position: absolute;
+margin-top: -50px;
+margin-left: 115px;
+    font-size: 30px;
+    font-family: 'Jost', sans-serif;
+  }
+
+  .hizmetlerimiz-container {
+
+    height: 800px;
+  }
+
+  .hizmetlerimiz-title-content h4 {
+padding-top: 40px;
+font-size: 20px;
+    font-family: 'Jost', sans-serif;
+  }
+
+  .hizmetlerimiz-maddeler{
+margin-top: 5rem;
+  }
+
+  .soru-cevap-boxs {
+    text-align: center;
+    font-family: 'Jost', sans-serif;
+  }
+
+  .box1 {
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    height: 200px;
+  width: 100%;
+box-shadow: 0 0  5px #00000038;
+  }
+
+.box1-s {
+  margin-top: 10px;
+}
+
+.box1-c {
+  padding-top: 30px;
+}
+
+
+
+
+  
+  

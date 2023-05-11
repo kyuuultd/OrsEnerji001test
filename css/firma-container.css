@@ -1,0 +1,66 @@
+.firma-box {
+  position: relative;
+}
+
+.firma-img-container,
+.firma-img {
+  z-index: 2;
+  height: 40%;
+  width: 47.9%;
+  margin-left: 100px;
+  margin-top: 52%;
+  transition: all 0.5s ease;
+}
+
+.firma-title{
+  text-shadow: 0px 1px 3px #000000;
+  font-family: "Raleway", sans-serif;
+  top: 0px;
+  position: absolute;
+  z-index: 2;
+  font-size: 50px;
+  left: 590px;
+  top: 20px;
+  transition: all 0.8s;
+}
+
+
+
+.firma-title::before {
+  position: absolute;
+  content: "";
+  background-color: black;
+  top: -3px;
+  height: 2.8px;
+  width: 65px;
+}
+
+.firma-title::after {
+  position: absolute;
+  content: "Enerji";
+  left: 74px;
+  top: 28px;
+}
+
+
+
+.firma-text {
+  font-family: "Rubik", sans-serif;
+  text-shadow: 0px 1px 1px #00000094;
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+  font-size: 18px;
+  padding-left: 200px;
+  margin-right: 200px;
+  margin-left: 500px;
+  margin-top: -370px;
+}
+
+.firma-text::after  {
+  content: "Amacımız, müşterilerimize en iyi hizmeti sunmak ve güneş enerjisi sistemleriyle ilgili tüm sorularına cevap vermek. Bunun için, yenilikçi ve teknolojik yeniliklere her zaman açık oluyoruz. Çünkü, sadece müşterilerimizin enerji ihtiyaçlarını karşılamakla kalmıyor, aynı zamanda en verimli ve en son teknolojiye sahip sistemleri kullanmalarını sağlıyoruz.";
+  margin-left: 100px;
+  margin-right: -150px;
+  margin-top: -30px;
+  text-shadow: 0px 1px 1px #00000081;
+}

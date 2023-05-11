@@ -1,0 +1,170 @@
+#slider {
+  margin: auto;
+  width: 100%;
+  overflow: hidden;
+  max-width: 100%;
+
+  text-align: center;
+}
+
+#slider input[type="radio"] {
+  display: none;
+}
+
+#slider label {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+#slides {
+  position: relative;
+  z-index: 3;
+}
+
+#overflow {
+  width: 100%;
+  overflow: hidden;
+}
+
+#slide1:checked ~ #slides .inner {
+  margin-left: 0;
+}
+
+#slide2:checked ~ #slides .inner {
+  margin-left: -100%;
+}
+
+#slide3:checked ~ #slides .inner {
+  margin-left: -200%;
+}
+
+#slide4:checked ~ #slides .inner {
+  margin-left: -300%;
+}
+
+#slide5:checked ~ #slides .inner {
+  margin-left: -400%;
+}
+
+#slide6:checked ~ #slides .inner {
+  margin-left: -500%;
+}
+
+#slider .inner {
+  transition: margin-left 800ms;
+  width: 400%;
+  height: 480px;
+}
+
+#slides .slide {
+  width: 25%;
+  float: left;
+  height: 100%;
+  color: #ffffff;
+}
+
+.slide-content {
+  margin-top: 120px;
+}
+
+#controls {
+  margin: -130px 0 0 0;
+  width: -100%;
+  margin-top: -16%;
+  height: 5 0px;
+  z-index: 3;
+  position: relative;
+}
+
+#controls label {
+  transition: opacity 0.5s ease-out;
+  display: none;
+  width: 50px;
+  height: 50px;
+  opacity: 0.5;
+}
+
+#controls label:hover {
+  opacity: 1;
+}
+
+#slide1:checked ~ #controls label:nth-child(2),
+#slide2:checked ~ #controls label:nth-child(3),
+#slide3:checked ~ #controls label:nth-child(4),
+#slide4:checked ~ #controls label:nth-child(5),
+#slide5:checked ~ #controls label:nth-child(6),
+#slide6:checked ~ #controls label:nth-child(1) {
+  background: url(/gorseller/ph/arrow-right.png) no-repeat;
+  float: right;
+  position: absolute;
+  margin: 0 0 0 1470px;
+  display: block;
+}
+
+#slide1:checked ~ #controls label:nth-last-child(1),
+#slide2:checked ~ #controls label:nth-last-child(6),
+#slide3:checked ~ #controls label:nth-last-child(5),
+#slide4:checked ~ #controls label:nth-last-child(4),
+#slide5:checked ~ #controls label:nth-last-child(3),
+#slide6:checked ~ #controls label:nth-last-child(2) {
+  background: url(/gorseller/ph/arrow-left.png) no-repeat;
+  float: left;
+  position: absolute;
+  margin: 0 0 0 10px;
+  display: block;
+}
+
+.inner .slide_1 {
+  background-color: rgba(65, 134, 134, 0);
+}
+
+.inner .slide_2 {
+  background-color: rgba(5, 75, 75, 0);
+}
+
+.inner .slide_3 {
+  background-color: rgba(0, 81, 255, 0);
+}
+
+.inner .slide_4 {
+  background-color: rgba(34, 116, 31, 0);
+}
+
+.inner .slide_5 {
+  background-color: rgba(173, 60, 103, 0);
+}
+
+.inner .slide_6 {
+  background-color: rgba(214, 12, 89, 0);
+}
+
+#bullets {
+  margin: 200px 0 0;
+  text-align: center;
+}
+
+#bullets label {
+  z-index: 3;
+    position: relative;
+  display: inline-block;
+  width: 30px;
+  height: 5px;
+  border-radius: 5px;
+  background: #201e1e;
+  margin: 0 10px;
+  transition: all 0.5s ease;
+}
+
+#bullets label:hover {
+  background: #201e1e49;
+}
+
+#slide1:checked ~ #bullets label:nth-child(1),
+#slide2:checked ~ #bullets label:nth-child(2),
+#slide3:checked ~ #bullets label:nth-child(3),
+#slide4:checked ~ #bullets label:nth-child(4),
+#slide5:checked ~ #bullets label:nth-child(5),
+#slide6:checked ~ #bullets label:nth-child(6) {
+  background: #979797c4;
+  transition: all 0.5s;
+}

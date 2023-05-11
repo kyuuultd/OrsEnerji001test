@@ -1,0 +1,476 @@
+/*** Açılış Navbar ***/
+.navbar {
+  position: fixed;
+  display: flex;
+  color: aliceblue;
+  align-items: center;
+  z-index: 100;
+  right: 0;
+  top: 0;
+  width: 100%;
+  justify-content: space-between;
+  padding: 28px 1%;
+  transition: all 0.5s ease;
+}
+
+.bg {
+  background-color: transparent;
+}
+
+.bg.scrolled {
+  background-color: rgba(245, 245, 245, 0.527);
+}
+
+.bg1 {
+  color: white;
+}
+
+.scrologo {
+  color: #75dbef;
+}
+
+.enerjilogo {
+  display: flex;
+  align-items: center;
+  height: 30px;
+  padding-left: 11px;
+}
+
+.bg3 li a {
+  color: rgba(24, 231, 93, 0.705);
+  font-size: 16px;
+  transition: all, 0.5s;
+}
+
+ul.navigation li a:hover {
+  color: rgb(23, 221, 89);
+  letter-spacing: 0.7px;
+  font-size: 17px;
+  text-shadow: 2px 1px 7px rgb(0, 0, 0);
+}
+a.logo span {
+  padding-left: 16px;
+  font-size: 35px;
+}
+
+/* Sosyal Medya Bağlantıları [Navbar Sağ Köşe] */
+
+.socialmedia {
+  display: grid;
+  place-items: center;
+  display: flex;
+}
+
+.socialmedia a {
+  position: relative;
+  text-align: center;
+}
+
+.socialmedia a .anim {
+  color: white;
+  transition: 0.6s;
+  line-height: 15px;
+  height: 25px;
+  font-size: 1.4rem;
+  background-color: transparent;
+  transition: 0.6s;
+  border-radius: 4px;
+}
+
+.socialmedia a:hover {
+  transform: translate(0, -1px);
+}
+/* twitter */
+.socialmedia a:nth-child(1) .anim:hover {
+  box-shadow: 1px 0 10px #23a3ff;
+  text-shadow: 1px 0 10px #23a3ff;
+  background-color: #23a3ff;
+  color: #fefefe;
+}
+/* insta */
+.socialmedia a:nth-child(2) .anim:hover {
+  box-shadow: 1px 0 10px #23a3ff;
+  box-shadow: 0 0px rgba(255, 255, 255, 0);
+  background: linear-gradient(to bottom, #7250c0, #da2e7c, #ffc568);
+  text-transform: uppercase;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* facebook */
+.socialmedia a:nth-child(3) .anim:hover {
+  box-shadow: 1px 0 10px #39569a;
+  text-shadow: 1px 0 10px #39569a;
+  background-color: #39569a;
+  color: #fefefe;
+}
+
+/* Sosyal Medya Bağlantıları KAPANIŞ */
+
+.logo {
+  position: left;
+  position: absolute;
+  padding-left: 3.5em;
+}
+
+.logo span {
+  align-items: center;
+  transition: 0.6s;
+}
+
+.logo span:hover {
+  letter-spacing: 3px;
+  text-shadow: 1px 5px 200px rgb(255, 255, 255);
+}
+.navigation {
+  display: flex;
+  align-items: center;
+}
+/* anasayfa, kurumsal, ürünlerimiz servis iletişim  */
+ul.navigation li {
+  cursor: pointer;
+  transition: color, 0.5s;
+}
+/* anasayfa...:hover  */
+.bg3 li:hover {
+  letter-spacing: 0.7px;
+  font-size: 17px;
+  color: white;
+  text-shadow: 2px 1px 8px rgb(0, 0, 0);
+}
+
+.bg3 {
+  color: #ffffff91;
+  transition: 0.6s;
+}
+
+.naviscroll {
+  color: black;
+}
+
+.navbar a {
+  margin: 0px 30px;
+  padding: 7px 0;
+  transition: all 0.4s ease;
+}
+
+.menu-btn {
+  cursor: pointer;
+  z-index: 3;
+  position: relative;
+  width: 50px;
+  height: 50px;
+  border-radius: 6px;
+  transition: all 0.4s ease-in-out;
+}
+
+.menu-btn1 {
+  display: none;
+  margin-top: 45%;
+  margin-left: 13.5%;
+  width: 60%;
+  height: 2px;
+  background: #000;
+  border-radius: 40px;
+  transition: all 0.4s ease-in-out;
+}
+
+.menu-btn1::before,
+.menu-btn1::after {
+  content: "";
+  background: transparent;
+  background-color: #000;
+  position: absolute;
+  width: 60%;
+  height: 2px;
+  border-radius: 40px;
+  transition: all 0.4s ease-in-out;
+}
+.menu-btn1::before {
+  transform: translateY(-10px);
+}
+
+.menu-btn1::after {
+  transform: translateY(10px);
+}
+
+.menu-btn.open .menu-btn1 {
+  transform: translateX(-10px);
+  background: transparent;
+}
+
+.menu-btn.open .menu-btn1::before {
+  width: 40px;
+  transform: rotate(50deg) translate(-2px, 0.5px);
+  border-radius: 60px;
+}
+
+.menu-btn.open .menu-btn1::after {
+  width: 40px;
+  transform: rotate(-50deg) translate(0px, -2px);
+  border-radius: 60px;
+}
+
+@media (max-width: 1280px) {
+  header {
+    padding: 14px 2%;
+    transition: 0.2s;
+  }
+
+  a.logo span {
+    padding-left: 28px;
+    font-size: 35px;
+  }
+
+  .sbp {
+    height: 100%;
+    margin-top: -40px;
+  }
+
+  .navbar a {
+    padding: 5px 0;
+    margin: 0px 20px;
+  }
+}
+
+
+.dropbox-box {
+  display: none;
+  position: absolute;
+  content: "";
+  height: 290px;
+  width: 600px;
+  background: #0000002c;
+ box-shadow: 0 0 60px #0000002c;
+  margin-left: -150px;
+}
+
+.content1img {
+  position: absolute;
+  margin-top: 30px;
+  margin-left: 50px;
+  width: 60px;
+  transition: all 0.3s ease-in-out;
+}
+
+.dropbox-content1 p{
+  position: absolute;
+  font-size: 16px;
+  margin-left: 27px;
+margin-top: 190px;
+}
+
+.content2img {
+  transition: all 0.3s ease-in-out;
+  margin-top: 30px;
+  margin-left: 240px;
+  width: 130px;
+  height: 156px;
+}
+
+.products:hover .dropbox-box {
+  display: block;
+}
+
+.dropbox-content2 p{
+position: absolute;
+margin-top: 158px;
+margin-left: 16rem;
+}
+
+.content3img {
+  transition: all 0.3s ease-in-out;
+  margin-top: -180px;
+  margin-left: 490px;
+  width: 65px;
+  height: 150px;
+}
+
+.dropbox-content3 {
+  margin-left: 30.3rem;
+}
+
+.content1img:hover {
+  transform: scale(1.1);
+  transition: all 0.3s ease-in-out;
+}
+
+.content2img:hover {
+  transform: scale(1.1);
+  transition: all 0.3s ease-in-out;
+}
+
+.content3img:hover {
+  transform: scale(1.1);
+  transition: all 0.3s ease-in-out;
+}
+
+@media (max-width: 1130px) {
+  .menu-btn1 {
+    display: block;
+  }
+
+  a.logo span {
+    display: flex;
+    padding-left: 400px;
+  }
+
+  .enerjilogo {
+    display: flex;
+    padding-left: 380px;
+  }
+
+  .socialmedia {
+    transform: scale(1.2);
+  }
+
+  .firma-title {
+    font-size: 30px;
+    margin-top: -150px;
+    margin-left: -60vh;
+  }
+
+  .firma-text p {
+    display: flex;
+    gap: 20px;
+    margin-top: -60px;
+    margin-left: -300px;
+    margin-right: -100px;
+  }
+
+  img.firma-img {
+    margin-left: -20px;
+    margin-top: 900px;
+    width: 70%;
+  }
+
+  .navigation {
+    position: absolute;
+    top: 100%;
+    right: -100%;
+    width: 200px;
+    height: 29vh;
+    background-color: #ffffff33;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    border-radius: 10px;
+    transition: all 0.4s ease;
+  }
+
+  .navigation a {
+    display: block;
+    margin: 12px 0;
+    padding: 0px 25px;
+    transition: all 0.5s;
+  }
+
+  .navigation.open {
+    right: 0%;
+  }
+}
+
+/* iPhone XR  */
+
+@media (max-width: 414px) {
+  .enerjilogo {
+    display: grid;
+    place-items: center;
+    padding-left: 10px;
+  }
+
+  a.logo span {
+    display: grid;
+    place-items: center;
+    padding-left: 30px;
+  }
+
+  .menu-btn1 {
+    margin-left: -1049px;
+    display: block;
+  }
+
+  .navigation {
+    position: absolute;
+    top: 100%;
+    right: -10%;
+    width: 385px;
+    font-size: 20px;
+    height: 60vh;
+    background-color: #ffffff33;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 5px;
+    border-radius: 10px;
+    transition: all 0.5s ease;
+  }
+
+  .arka-plan-top,
+  .sbp {
+position: absolute;
+width: 400%;
+height: 908px;
+  }
+
+
+
+  .navigation a {
+    display: block;
+    margin: 12px 0;
+    padding: 0px 25px;
+    transition: all 0.5s;
+  }
+
+  .navigation.open {
+    position: absolute;
+    right: 75.7%;
+  }
+
+.firma-img-container,
+.firma-img {
+  display: none;
+}
+
+.firma-title {
+  display: flex;
+  margin-top: -20px;
+  margin-left: -660px;
+}
+
+}
+
+@media (max-width: 1292px) {
+
+img.firma-img {
+  margin-left: -20px;
+margin-top: 800px;
+  }
+
+.firma-title {
+  margin-left: -180px;
+  position: absolute;
+  margin-top: 5px;
+}
+
+.firma-text p{
+margin: 100px 0 0 -200px;
+}
+
+.firma-politica-img {
+width: 100%;
+height: 100%;
+}
+
+.politica-text::after {
+  bottom: -150px;
+  right: -10px;
+}
+
+.slide-content2 h1 {
+transform: scale(0.90);
+width: 1000px;
+  column-width: 100px;
+overflow: hidden;
+}
+}

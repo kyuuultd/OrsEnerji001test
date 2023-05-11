@@ -1,0 +1,103 @@
+slide-content6 h3 {
+    font-size: 17px;
+    font-family: "Raleway", sans-serif;
+    font: bold;
+    color: #000;
+    position: relative;
+
+    margin-top: 50px;
+    float: left;
+    margin-left: 105px;
+  }
+  
+  .slide-content6 h3::before {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 110px;
+    margin-top: 29px;
+    background-color: #000;
+  }
+
+  .slide-content6 h1 {
+    overflow: hidden;
+    color: #000;
+    font-size: 30px;
+    font-family: "Raleway", sans-serif;
+    font: italic;
+  
+    position: absolute;
+    float: left;
+    margin-left: 90px;
+    top: 120px;
+  }
+  
+  .slide-content6 h2{
+      font-family: 'Rubik', sans-serif;
+      font-size: 16px;
+      color: #201e1e;
+  
+  position: absolute;
+  float: left;
+  
+  margin-top: 90px;
+  
+  top: 90px;
+  margin-left: 105px;
+  }
+  
+  .slide-content6 h4{
+      font-family: 'Rubik', sans-serif;
+      font-size: 16px;
+      color: #201e1e;
+  
+  position: absolute;
+  float: left;
+  
+  margin-top: 130px;
+  
+  top: 90px;
+  margin-left: 105px;
+  }
+  
+  .slide-content6 h5{
+      font-family: 'Rubik', sans-serif;
+      font-size: 16px;
+      color: #201e1e;
+  
+  position: absolute;
+  float: left;
+  
+  margin-top: 170px;
+  
+  top: 90px;
+  margin-left: 105px;
+  }
+  
+  .slide-content6 h6{
+      font-family: 'Rubik', sans-serif;
+      font-size: 16px;
+      color: #201e1e;
+  
+  position: absolute;
+  float: left;
+  
+  margin-top: 210px;
+  
+  top: 90px;
+  margin-left: 105px;
+  }
+
+  .slide6img {
+    width: 170px;
+    float: right;
+    margin-top: 17px;
+    margin-right: 80px;
+  }
+
+  .canadiansolar {
+    width: 200px;
+    position: relative;
+    top: 300px;
+    left: 105px;
+}

@@ -1,0 +1,108 @@
+
+/*! 1. Slider Box LG Marka*/
+ /* "Ürünlerimiz yazısının ayarları" */
+.slide-content1 h3 {
+    font-size: 17px;
+   font-family: "Raleway", sans-serif;   /*başlığın fontu */
+    font: bold;
+    color: #000; /* yazının rengi */
+    position: relative;
+  /* yazının konumu */
+    margin-top: 50px;
+    float: left;
+    margin-left: 105px;
+  }
+  
+  .slide-content1 h3::before {
+    content: ""; /*ürünlerimiz yazısını üstündeki siyah çizgi */
+    position: absolute;
+    height: 2px;
+    width: 110px;
+    margin-top: 29px;
+    background-color: #000;
+  }
+   /* ürünün başlığı: LG MonoX Plus 365 Watt Mono Siyah Güneş Paneli */
+  .slide-content1 h1 {
+      overflow: hidden;
+    color: #000;
+    font-size: 30px;
+    font-family: "Raleway", sans-serif;
+    font: italic;
+  
+    position: absolute;
+    float: left;
+    margin-left: 90px;
+    top: 120px;
+  }
+  
+  .slide-content1 h2{
+      font-family: 'Rubik', sans-serif;
+      font-size: 16px;
+      color: #201e1e;
+  
+  position: absolute;
+  float: left;
+  
+  margin-top: 90px;
+  
+  top: 90px;
+  margin-left: 105px;
+  }
+  
+  .slide-content1 h4{
+      font-family: 'Rubik', sans-serif;
+      font-size: 16px;
+      color: #201e1e;
+  
+  position: absolute;
+  float: left;
+  
+  margin-top: 130px;
+  
+  top: 90px;
+  margin-left: 105px;
+  }
+  
+  .slide-content1 h5{
+      font-family: 'Rubik', sans-serif;
+      font-size: 16px;
+      color: #201e1e;
+  
+  position: absolute;
+  float: left;
+  
+  margin-top: 170px;
+  
+  top: 90px;
+  margin-left: 105px;
+  }
+  
+  .slide-content1 h6{
+      font-family: 'Rubik', sans-serif;
+      font-size: 16px;
+      color: #201e1e;
+  
+  position: absolute;
+  float: left;
+  
+  margin-top: 210px;
+  
+  top: 90px;
+  margin-left: 105px;
+  }
+  
+  .slide1img {
+    width: 170px;
+    float: right;
+    margin-top: 40px;
+    margin-right: 105px;
+  }
+  
+  .lglogo {
+      width: 100px;
+      position: relative;
+      top: 290px;
+  
+  
+      left: 105px;
+  }

@@ -1,0 +1,259 @@
+
+
+.footer-img {
+  position: absolute;
+  margin-top: 190px;
+}
+
+footer {
+  height: 300px;
+  margin-top: 90px;
+  background-color: #00000017;
+  box-shadow: 0 0 90px #ffffff17;
+}
+
+.hizli-menu {
+  gap: 2px;
+  height: 190px;
+  width: 19rem;
+  margin-left: 60rem;
+  position: absolute;
+  background-color: #f3000000;
+  font-size: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.hizli-menu-title h1 {
+  padding-left: 10px;
+  padding-top: 30px;
+  font-size: 17px;
+}
+
+.hizli-menu a {
+  width: 100px;
+
+  margin-top: 5px;
+  padding-left: 10px;
+  transition: all 0.2s ease-out;
+}
+
+.hizli-menu a:hover {
+  color: #00000056;
+  transition: all 0.2 s ease-out;
+}
+
+.hizli-menu::after {
+    content: "";
+    position: absolute;
+    width: 2px;
+    height: 90px;
+    margin: 35px 0px 0 110px;
+    background-color: #000;
+}
+
+.wpmail {
+    position: absolute;
+    margin-top: 32px;
+margin-left: 130px;
+}
+
+.wpmail i {
+   color: #000000;
+   font-size: 18px;
+}
+
+.copyrights {
+  margin: 270px 0 0 0;
+position: absolute;
+font-family: 'Rubik', sans-serif; 
+font-size: 14px;
+}
+
+.gizlilikpolitka:hover {
+  color: #00000056;
+  transition: all 0.2 s ease-out;
+}
+
+a.gizlilikpolitka {
+  margin-right: 10px;
+  cursor: pointer;
+  transition: all 0.2s ease-out;
+}
+
+.footer-menu {
+  margin-left: 150px;
+  position: absolute;
+  background-color: #00000000;
+  width: 450px;
+  height: 200px;
+}
+
+.orsenerjilogo {
+
+  position: absolute;
+width: 60%;
+  margin-top: -27px;
+  margin-left: -30px;
+}
+
+.arabosluk{
+  content: "";
+  margin-top: 2rem;
+  margin-left: 14rem;
+  position: absolute;
+  width: 2px;
+  height: 150px;
+  background-color: #00000048;
+  opacity: 70%;
+}
+
+.logo-alt-text {
+  position: absolute;
+  margin-top: 5rem;
+  opacity: 90%;
+  font-size: 14px;
+  padding-left: 6px;
+display: flex;
+flex-direction: column;
+  color: #fcfbfb;
+}
+
+
+
+/*? button css  */
+button.button1 {
+  position: absolute;
+  display: inline-block;
+  border-radius: 4px;
+  border: none;
+  color: #000;
+  opacity: 90%;
+  text-align: center;
+  font-size: 14px;
+  height: 55px;
+  width: 190px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin-top: 50px;
+  margin-left: 12rem;
+ }
+ 
+ button.button1 span {
+  text-decoration: underline;
+  font-family: 'Rubik', sans-serif; 
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+ }
+ 
+ button.button1 span:after {
+  content: '»';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -15px;
+  transition: 0.5s;
+ }
+ 
+ button.button1:hover span {
+  padding-right: 15px;
+ }
+ 
+ button.button1:hover span:after {
+  opacity: 1;
+  right: 0;
+ }
+
+/*? button2 */
+
+button.button2 {
+  position: absolute;
+  display: inline-block;
+  border-radius: 4px;
+  border: none;
+  color: #000;
+  opacity: 90%;
+  text-align: center;
+  font-size: 14px;
+  height: 50px;
+  width: 190px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin-top: 85px;
+  margin-left: 12rem;
+ }
+ 
+ button.button2 span {
+  text-decoration: underline;
+  font-family: 'Rubik', sans-serif; 
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+ }
+ 
+ button.button2 span:after {
+  content: '»';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -15px;
+  transition: 0.5s;
+ }
+ 
+ button.button2:hover span {
+  padding-right: 15px;
+ }
+ 
+ button.button2:hover span:after {
+  opacity: 1;
+  right: 0;
+ }
+
+ /* ? button3  */
+
+ button.button3 {
+  position: absolute;
+  display: inline-block;
+  border-radius: 4px;
+  border: none;
+  color: #000;
+  opacity: 90%;
+  text-align: center;
+  font-size: 14px;
+  height: 50px;
+  width: 190px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin-top: 118px;
+  margin-left: 12rem;
+ }
+ 
+ button.button3 span {
+  text-decoration: underline;
+  font-family: 'Rubik', sans-serif; 
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+ }
+ 
+ button.button3 span:after {
+  content: '»';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -15px;
+  transition: 0.5s;
+ }
+ 
+ button.button3:hover span {
+  padding-right: 15px;
+ }
+ 
+ button.button3:hover span:after {
+  opacity: 1;
+  right: 0;
+ }
