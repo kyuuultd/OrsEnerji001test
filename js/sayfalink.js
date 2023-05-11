@@ -3,9 +3,9 @@ document.querySelector("#iletisim").onclick=function()
     window.location.href="iletisim.html"
 }
 
-document.querySelector("#anasayfa").onclick=function()
+document.querySelector("#index").onclick=function()
 {
-    window.location.href="anasayfa.html"
+    window.location.href="index.html"
 }
 
 document.querySelector("#kurumsal").onclick=function()
